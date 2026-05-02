@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   description:
     "Erespect株式会社は、地域・企業の新規事業創出支援、地方創生、再生可能エネルギー関連サービスを通じて、持続可能な未来を共に創ります。",
   icons: {
-    icon: "/favicon-32.png",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
