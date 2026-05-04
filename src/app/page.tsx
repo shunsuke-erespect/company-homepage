@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="animate-on-scroll delay-2">
               <p className="text-sm sm:text-base text-gray-600 leading-loose">
-                Erespect（Earth Respect）という社名には「地球を敬う」という想いが込められています。
+                Erespect（イーリスペクト）という社名には「地球を敬う」という想いが込められています。
                 地域が持つ固有の資源と、企業が持つ力を掛け合わせ、
                 環境に配慮しながら持続可能な成長を共に実現する。
                 それが私たちの目指す姿です。
