@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ImageSlideshow } from "@/components/ImageSlideshow";
 
 const services = [
@@ -211,7 +212,15 @@ export default function Home() {
       <section className="py-20 sm:py-24 bg-section-bg">
         <div className="max-w-2xl mx-auto px-6 sm:px-10 text-center">
           <div className="animate-on-scroll">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
+            <Image
+              src="/logo.jpg"
+              alt="Erespect - Earth Respect"
+              width={120}
+              height={120}
+              className="mx-auto rounded-2xl shadow-md"
+              unoptimized
+            />
+            <h2 className="mt-6 text-xl sm:text-2xl font-bold text-gray-900">
               お問い合わせはこちらから
             </h2>
             <p className="mt-4 text-sm text-gray-500 leading-relaxed">
